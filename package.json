@@ -1,0 +1,30 @@
+{
+  "name": "monotwit",
+  "version": "0.0.1",
+  "description": "A MongoDB Node.js Twitter Client",
+  "main": "app.js",
+  "dependencies": {
+    "seneca": "^0.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siliconchris1973/MoNoTwit.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "Node.js",
+    "Twitter",
+    "Tweet",
+    "Client"
+  ],
+  "author": "chris.guenther@mac.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siliconchris1973/MoNoTwit/issues"
+  },
+  "homepage": "https://github.com/siliconchris1973/MoNoTwit#readme"
+}
