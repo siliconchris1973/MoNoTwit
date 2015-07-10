@@ -1,5 +1,12 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	include ./header.jade
+	
+	ul
+		li
+			a(href='users') jump to Users
+		li
+			a(href='tweets') jump to Tweets
+				
+	include ./footer.jade

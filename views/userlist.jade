@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	include ./header.jade
+	
+	ul
+		each user, i in userlist
+			li mailto: 
+				a(href="mailto:#{user.email}")= user.username
+	
+	
+	include ./footer.jade

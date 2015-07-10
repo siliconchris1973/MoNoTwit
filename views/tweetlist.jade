@@ -1,0 +1,13 @@
+extends layout
+
+block content
+	include ./header.jade
+	
+	ul
+		each tweet, i in tweetlist
+			li 
+				#{tweet.title} was written by #{tweet.user}
+				<a href ="#{tweet.title}"> Link to Tweet </a>
+	
+	
+	include ./footer.jade

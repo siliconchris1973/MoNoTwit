@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	include ./header.jade
+	
+	p Get in touch ...
+	
+	p You may contact us through the form below
+	form#formContact(name="contact",method="post",action="/contact")
+		input#inputContactName(type="text", placeholder="contactname", name="contactname")
+		input#inputContactEmail(type="text", placeholder="contactemail", name="contactemail")
+		input#inputContactText(type="text", placeholder="contacttext", name="contacttext")
+		button#btnSubmit(type="submit") submit
+		
+	include ./footer.jade

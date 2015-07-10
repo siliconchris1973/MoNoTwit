@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	include ./header.jade
+	
+	ul
+		li 
+			a(href='/tweets/gettweetlist') List of Tweets
+		li 
+			a(href='/tweets/starttwitterstreaming') Start streaming
+		li 
+			a(href='/tweets/stoptwitterstreaming') Stop streaming
+	
+	
+	include ./footer.jade
